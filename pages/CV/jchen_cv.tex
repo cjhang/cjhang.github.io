@@ -15,6 +15,11 @@
 \usepackage{tikz}
 \usepackage{titlesec}
 %\input{glyphtounicode}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=RoyalPurple,
+    }
+
 
 \begin{comment}
   comments
@@ -137,15 +142,18 @@ which heading appropriate for the document you are creating.
 \hfill\vline\hfill
 \end{minipage}
 \begin{minipage}[c]{0.6\textwidth}
-    \textbf{\Huge Jianhang CHEN} \\ \vspace{1pt} 
+    \textbf{\Huge Jianhang CHEN} \\
     % \scshape sets small capital letters, remove if desired
-    \small{+49 1627363870} \\
+    %\small{+49 1627363810} \\
+    \vspace{-0.5pt}
+    \small{} \\
     \href{mailto:Jianhang.Chen@eso.org}{\underline{Jianhang.Chen@eso.org}}\\
     % Be sure to use a professional *personal* email address
     %\href{https://www.linkedin.com/in/charles-rambo/}{\underline{linkedin.com/in/charles-rambo}} \\
     \href{https://cjhastro.github.io}{\underline{https://cjhastro.github.com}}\\
     % you should adjust you linked in profile name to be professional and recognizable
     \href{https://github.com/cjhang}{\underline{github.com/cjhastro}} \\
+    European Southern Observatory \\
     Karl-Schwarzschild-Strasse 2\\ 85748, Garching bei München, Germany
 \end{minipage}
 
@@ -368,29 +376,43 @@ recommends.
     }}
  \end{itemize}
 
+\newpage
 
-\section{Publications}
-{\bf First author papers:}\\
-\vspace{-0.8em}
+\begin{table*}
+  \centering
+  \begin{tabular*}{0.9\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    {\Huge Jianhang CHEN} & {\huge\sc List of Publications} \\
+    European Southern Observatory & Jianhang.Chen@eso.org \\
+    Karl-Schwarzschild-Strasse 2 & \\
+    85748, Garching bei München, Germany & \href{https://ui.adsabs.harvard.edu/public-libraries/F2VsSSiDSeuhqtOkcg-qVg}{\underline{ADS Library}}
+  \end{tabular*}
+\end{table*}
+
+%\par\noindent\rule{\textwidth}{0.5pt}
+%\vspace{-3em}
+
+\section{First author papers:}
+%\vspace{-0.8em}
 \begin{paperlist}
-    \item ``ALMACAL X: Extreme over-densities are not always signposts to proto-clusters -- a cautionary tale" Chen, Ivison, Zwaan et al. MNRAS. (in submission)
-    \item ``ALMACAL IX: multi-band ALMA survey for dusty star-forming galaxies and the resolved fractions of the cosmic infrared background" Chen, Ivison, Zwaan et al. MNRAS, (2022), arXiv:2210.09329 
-    \item ``The spatial extension of extended narrow line regions in MaNGA AGN" Chen, Shi, Dempsey et al. MNRAS, 489, 855 (2019)
+    \item ``ALMACAL X: Extreme over-densities are not always signposts to proto-clusters -- a cautionary tale" {\bf Chen}, Ivison, Zwaan et al. MNRAS. ({\bf in submission})
+    \item ``ALMACAL IX: multi-band ALMA survey for dusty star-forming galaxies and the resolved fractions of the cosmic infrared background" {\bf Chen}, Ivison, Zwaan et al. MNRAS, (2022), arXiv:2210.09329 
+    \item ``The spatial extension of extended narrow line regions in MaNGA AGN" {\bf Chen}, Shi, Dempsey et al. MNRAS, 489, 855 (2019)
 \end{paperlist}
 
 
-{\bf Co-author papers:}\\
-\vspace{-0.8em}
+\section{Co-author papers:}
+%\par\noindent\rule{\textwidth}{0.5pt}\\
+%\vspace{-0.8em}
 \begin{paperlist}
-    \item ``The H I gas disc thickness of the ultra-diffuse galaxy AGC 242019” Li, Shi, Zhang et al. MNRAS, 516, 4220 (2022)
-    \item ``ALMACAL: Surveying the Universe with ALMA Calibrator Observations" Zwaan, Ivison, Peroux et al. The Messenger, 186, 10 (2022)
-    \item ``The major mechanism to drive turbulence in star-forming galaxies” Yu, Bian, Krumholz et al. MNRAS, 505, 5075 (2021)
-    \item ``Probing possible effects of circumgalactic media on the metal content of galaxies through the mass-metallicity relationship” Zhai, Shi, Chen et al. MNRAS, 504, 1959 (2021)
-    \item ``A Cuspy Dark Matter Halo” Shi, Zhang, Wang et al. ApJ, 909, 20 (2021)
-    \item ``The impact of merging on the origin of kinematically misaligned and counter-rotating galaxies in MaNGA” Li, Shi, Bizyaev et al. MNRAS, 501, 14 (2021)
-    \item ``Host galaxy properties of changing-look AGNs revealed in the MaNGA survey” Yu, Shi, Chen et al. MNRAS, 498, 3985 (2020)
-    \item ``What drives the velocity dispersion of ionized gas in star-forming galaxies?” Yu, Shi, Chen et al. MNRAS, 486, 4463 (2019)
-    \item ``An early-type galaxy with an inner star-forming disc” Li, Shi, Chen et al. MNRAS, 480, 1705 (2018)
+    \item ``The H I gas disc thickness of the ultra-diffuse galaxy AGC 242019” Li et al. (4th co-author) MNRAS, 516, 4220 (2022)
+    \item ``ALMACAL: Surveying the Universe with ALMA Calibrator Observations" Zwaan et al. (4th co-author) The Messenger, 186, 10 (2022)
+    \item ``The major mechanism to drive turbulence in star-forming galaxies” Yu et al. (6th co-author) MNRAS, 505, 5075 (2021)
+    \item ``Probing possible effects of circumgalactic media on the metal content of galaxies through the mass-metallicity relationship” Zhai et al. (3th co-author) MNRAS, 504, 1959 (2021)
+    \item ``A Cuspy Dark Matter Halo” Shi, Zhang, Wang et al. (4th co-author) ApJ, 909, 20 (2021)
+    \item ``The impact of merging on the origin of kinematically misaligned and counter-rotating galaxies in MaNGA” Li et al. (8th co-author) MNRAS, 501, 14 (2021)
+    \item ``Host galaxy properties of changing-look AGNs revealed in the MaNGA survey” Yu et al. (4th co-author) MNRAS, 498, 3985 (2020)
+    \item ``What drives the velocity dispersion of ionized gas in star-forming galaxies?” Yu et al. (9th co-author) MNRAS, 486, 4463 (2019)
+    \item ``An early-type galaxy with an inner star-forming disc” Li et al. (6th co-author) MNRAS, 480, 1705 (2018)
 \end{paperlist}
 %------------------------------------------------------------------------------
 \end{document}
