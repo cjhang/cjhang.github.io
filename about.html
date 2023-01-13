@@ -9,41 +9,34 @@ function includeHTML(){for(var t,e,n,s=document.getElementsByTagName("*"),i=0;i<
 </script>
 
 <body>
+
+
   <section class="hero is-info is-medium">
     <div class="hero-head" html-snippet='/assets/navbar.html'></div>
-
-    <div class="hero-body" html-snippet='/assets/contact.html'></div>
-
-    <div class="hero-foot">
-      <nav class="tabs is-boxed is-fullwidth">
-        <div class="container">
-          <ul>
-            <li class="tablinks is-active" onclick="openTab(event, 'projects')">
-              <a>Projects</a>
-            </li>
-            <li class="tablinks" onclick="openTab(event, 'publications')">
-              <a>Publications</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
   </section>
-
 
   <section>
-
-    <div id="projects" class="tabcontent">
-      <div class='box' html-snippet="/pages/ALMACAL/ALMACAL.html"></div>
+    <p class='title'>About me</p>
+    <div class='block'>
+      
     </div>
-
-    <div id="publications" class="tabcontent">
-      <!--This is one paper-->
-      <div class="box" html-snippet='/pages/ENLR/Chen2019.html'></div>
-      <div class="box" html-snippet='/pages/ALMACAL/Chen2023.html'></div>
-    </div>
-
   </section>
+
+  <section>
+    <p class='title'>News</p>
+    <div class='block'>
+      
+    </div>
+  </section>
+
+  <section>
+    <p class='title'>Collections</p>
+    <div class='block'>
+      
+    </div>
+  </section>
+
+
 
 <!--footer-->
 <footer class="footer" html-snippet='/assets/footer.html'>
