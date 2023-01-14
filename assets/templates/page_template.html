@@ -3,13 +3,8 @@
   <head html-snippet='/assets/header.html'>
 </head>
 
-<script>
-//function to include html snippets, see also in custom.js
-function includeHTML(){for(var t,e,n,s=document.getElementsByTagName("*"),i=0;i<s.length;i++)if(e=(t=s[i]).getAttribute("html-snippet"))return(n=new XMLHttpRequest).onreadystatechange=function(){4==this.readyState&&(200==this.status&&(t.innerHTML=this.responseText),404==this.status&&(t.innerHTML="Page not found."),t.removeAttribute("html-snippet"),includeHTML())},n.open("GET",e,!0),void n.send()}
-</script>
-
 <body>
-  <section class="hero is-info is-medium">
+  <section class="hero is-dark is-medium">
     <div class="hero-head" html-snippet='/assets/navbar.html'></div>
   </section>
 
@@ -19,7 +14,7 @@ function includeHTML(){for(var t,e,n,s=document.getElementsByTagName("*"),i=0;i<
 
 
 <!--footer-->
-<footer class="footer" html-snippet='/assets/footer.html'>
+<footer class="footer has-background-dark has-text-white" html-snippet='/assets/footer.html'>
 </footer>
 <!--js-->
 <script src="assets/js/custom.js"></script>

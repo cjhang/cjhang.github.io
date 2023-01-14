@@ -1,6 +1,24 @@
+/*body {*/
+    /*background-color: black;*/
+    /*color: white;*/
+/*}*/
+
+
 .tabcontent {
     display: none;
 }
+
 #projects {
     display: block;
+}
+
+#hero-img {
+    background-image: url("/assets/pic/iram30m.jpg");
+    background-size: cover;
+     background-position: center;
+}
+
+.hero-head {
+    background-color: hsl(0, 0%, 21%);
+
 }
