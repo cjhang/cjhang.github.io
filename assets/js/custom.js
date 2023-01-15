@@ -8,10 +8,10 @@ function includeHTML() {
 
 // make interactive navbar
 function toggleBurger(event) {
-  burger = document.getElementsByClassName('burger')[0];
-  burgernav = document.querySelector('#'+burger.dataset.target);
+  navburger = document.getElementsByClassName('navbar-burger')[0];
+  burgernav = document.querySelector('#'+navburger.dataset.target);
 
-  burger.classList.toggle('is-active');
+  navburger.classList.toggle('is-active');
   burgernav.classList.toggle('is-active');
 };
 
@@ -40,5 +40,3 @@ function toggleDarkLight() {
   var currentClass = body.className;
   body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
 };
-
-
