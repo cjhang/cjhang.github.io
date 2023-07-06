@@ -1,0 +1,33 @@
+:root {
+--dark-color: #111;
+--light-color: #eee;
+}
+
+body.light-mode {
+  background-color: hsl(204, 86%, 53%);
+  color: var(--light-color);
+}
+
+body.dark-mode {
+  background-color: hsl(0, 0%, 21%);
+  color: var(--light-color);
+
+  .hero {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+  }
+  .tabcontent {
+    background-color: var(--dark-color);
+    color: var(--dark-color);
+  }
+  .content {
+    background-color: var(--dark-color);
+    color: var(--dark-color);
+  }
+  .footer.tile {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+  }
+}
+
+
